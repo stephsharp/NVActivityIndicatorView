@@ -42,7 +42,7 @@ import UIKit
  - SemiCircleSpin:          SemiCircleSpin animation.
  - BallRotateChase:         BallRotateChase animation.
  */
-public enum NVActivityIndicatorType {
+@objc public enum NVActivityIndicatorType: Int {
     /**
      Blank.
      
